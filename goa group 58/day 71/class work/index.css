@@ -1,0 +1,22 @@
+#car {
+    background-image: url(./2023-mercedes-amg-c63-s-e-performance-109-65d79697e865a\ copy.avif);
+    background-position: center;
+    background-size: 1000px;
+
+
+    height : 100px;
+    width : 100px ; 
+    margin: 300px;
+    padding: 200px;
+
+   
+    border: 3px solid black;
+    
+    
+    
+    
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}

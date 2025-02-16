@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="fade-in">SPLI<br>TTER</h1>
+        <div class="splitter">
+            <div class="input-section">
+                <label>Bill</label>
+                <input type="number" placeholder="$">
+
+                <label>Select Tip %</label>
+                <div class="tip-buttons">
+                    <button>5%</button>
+                    <button>10%</button>
+                    <button>15%</button>
+                    <button>25%</button>
+                    <button>50%</button>
+                    <button class="custom">Custom</button>
+                </div>
+
+                <label>Number of People</label>
+                <input type="number" placeholder="👤">
+            </div>
+
+            <div class="output-section fade-in">
+                <p>Tip Amount / person</p>
+                <h2>$0.00</h2>
+                <p>Total / person</p>
+                <h2>$0.00</h2>
+                <button class="reset">RESET</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

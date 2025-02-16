@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+.img{
+    padding: 100px;
+    margin: 100px;
+
+    width:100px;
+    height:100px;
+}

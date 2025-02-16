@@ -1,0 +1,33 @@
+.container {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.small-block {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+   /* ease-in timing function არის ისეთი ფუნქცია რომელიც დასაწყისიდან უფრო ნელს ხდის ანიმაციას და ნელ-ნელა ასწრაფებს  */
+    animation: moveBlock 2s infinite ease-in-out  ;
+}
+
+
+@keyframes moveBlock {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 250px;
+    }
+}

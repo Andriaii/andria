@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+ 
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    transition: transform 0.3s;
+  }
+  
+
+  .box:hover {
+    transform: scale(1.2) rotate(15deg);
+    background-color: #2ecc71;
+  }
+  
