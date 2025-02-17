@@ -24,8 +24,8 @@ body {
 
 
 .loading-bar {
-    width: 400px;
-    height: 15px;
+    width: 700px;
+    height: 40px;
     background: #222;
     border-radius: 10px;
     overflow: hidden;
